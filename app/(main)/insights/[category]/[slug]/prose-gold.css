@@ -1,0 +1,35 @@
+.prose-gold {
+  --tw-prose-invert-headings: #ffffff;
+  --tw-prose-invert-links: #ffd700;
+  --tw-prose-invert-bold: #ffffff;
+  --tw-prose-invert-counters: #ffd700;
+  --tw-prose-invert-bullets: #ffd700;
+  --tw-prose-invert-quotes: #ffd700;
+}
+
+.prose-gold a {
+  text-decoration: none;
+  position: relative;
+}
+
+.prose-gold a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ffd700;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.prose-gold a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.prose-gold blockquote {
+  border-left-color: #ffd700;
+}

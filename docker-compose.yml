@@ -1,0 +1,39 @@
+services:
+  nextjs:
+    image: jaffaralideveloper/nextjs-app:latest
+    container_name: nextjs-app
+    ports:
+      - "3000:3000"
+    restart: always
+    networks:
+      - app-network
+    build:
+      context: .
+      dockerfile: dockerfile
+      # args:
+      # AUTH_ACCESS_TOKEN_API: ${AUTH_ACCESS_TOKEN_API}
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL}
+      NEXT_PUBLIC_APP_BASE_URL: ${NEXT_PUBLIC_APP_BASE_URL}
+      NEXT_PUBLIC_FACEBOOK_PIXEL_ID: ${NEXT_PUBLIC_FACEBOOK_PIXEL_ID}
+
+    env_file:
+      - .env
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro # Mount SSL certificates
+    depends_on:
+      - nextjs
+    restart: always
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
