@@ -23,7 +23,7 @@ export default function SocialsPage() {
       {/* Social Media Links */}
       <div className="w-full max-w-md px-4 space-y-4">
         <a
-          href="https://goldenrootsmarketing.com/"
+          href="https://naya.nawar.site/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-between bg-white text-black py-3 px-6 rounded-md w-full hover:bg-gray-100 transition-colors"

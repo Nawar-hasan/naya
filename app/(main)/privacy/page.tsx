@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
                     If you have any questions about this Privacy Policy, please
                     contact us at:
                     <br />
-                    Email: privacy@goldenroots.com
+                    Email: privacy@naya.nawar.site
                     <br />
                     Address: 123 Innovation Street, Tech City, TC 12345
                   </p>

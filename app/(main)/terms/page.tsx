@@ -207,7 +207,7 @@ Our total liability for any claim arising from or relating to these terms or our
                     Questions about the Terms and Conditions should be sent to
                     us at:
                     <br />
-                    Email: legal@goldenroots.com
+                    Email: legal@naya.nawar.site
                     <br />
                     Address: 123 Innovation Street, Tech City, TC 12345
                   </p>

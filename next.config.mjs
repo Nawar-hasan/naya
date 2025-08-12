@@ -11,10 +11,6 @@ const nextConfig = {
       },
     ],
   },
-  eslint: {
-    // هذا السطر يخلي Vercel يتجاهل أخطاء ESLint أثناء البناء
-    ignoreDuringBuilds: true,
-  },
 };
 
 export default nextConfig;

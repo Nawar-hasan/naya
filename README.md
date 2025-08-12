@@ -13,14 +13,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/business4941103/golden-roots.git
+git remote add origin https://github.com/Nawar-hasan/naya.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/business4941103/golden-roots/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/business4941103/naya/-/settings/integrations)
 
 ## Collaborate with your team
 

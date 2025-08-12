@@ -1,15 +1,15 @@
 export const contactInfo = {
-  phone: "971503784500",
+  phone: "963968467163",
   lan: "042521251",
-  email: "info@naya.com",
-  location: "Dubai Deira Deira city centre",
-  facebook: "https://www.facebook.com/share/18yh9FNxDM/?mibextid=wwXIfr",
+  email: "info@nawar.site",
+  location: "Saudi Arabia - Riyadh",
+  facebook: "https://www.facebook.com/share/168Lb9QHb5/",
   instagram:
-    "https://www.instagram.com/goldenrootsmarketingmanagement?igsh=MTZpMnJkaHJrZ3h3aA%3D%3D&utm_source=qr",
+    "https://www.instagram.com/phoenician2025?igsh=MW00cHNuazl2NG9pOA==",
   googleMap:
-    "https://www.google.com/maps/place/25%C2%B015'38.5%22N+55%C2%B020'06.2%22E/@25.247744,55.3254912,14z/data=!4m4!3m3!8m2!3d25.2606944!4d55.3350556?authuser=0&entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.google.com/maps/place/%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9%E2%80%AD/@24.7248315,47.1521875,10z/data=!3m1!4b1!4m12!1m5!3m4!2zMjXCsDE1JzM4LjUiTiA1NcKwMjAnMDYuMiJF!8m2!3d25.2606944!4d55.3350556!3m5!1s0x3e2f03890d489399:0xba974d1c98e79fd5!8m2!3d24.7135517!4d46.6752957!16zL20vMGRsbV8?authuser=0&entry=ttu&g_ep=EgoyMDI1MDgwNi4wIKXMDSoASAFQAw%3D%3D",
   embeddedMap:
-    "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d28869.42975516361!2d55.3254912!3d25.247744!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739375639394!5m2!1sen!2sus",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231949.1192260541!2d46.91254826027999!3d24.719841855602613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2z2KfZhNix2YrYp9i2INin2YTYs9i52YjYr9mK2Kk!5e0!3m2!1sar!2snl!4v1754987710207!5m2!1sar!2snl",
   host:
     process.env.NODE_ENV === "production"
       ? process.env.NEXT_PUBLIC_APP_BASE_URL
