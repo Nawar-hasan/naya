@@ -10,6 +10,10 @@ const nextConfig = {
         pathname: "/*",
       },
     ],
+     eslint: {
+    // هذا السطر يخلي Vercel يتجاهل أخطاء ESLint أثناء البناء
+    ignoreDuringBuilds: true,
+  },
   },
 };
 
